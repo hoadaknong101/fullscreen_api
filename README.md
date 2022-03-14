@@ -1,4 +1,4 @@
-BÀI TẬP NHÓM - BẢO MẬT WEB - FULLSCREEN API ATTACK
+BÀI TẬP NHÓM - BẢO MẬT WEB - FULLSCREEN API ATTACK.
 THÀNH VIÊN
   1. Phạm Đinh Quốc Hòa   - 19110365
   2. Nguyễn Quang Sang    - 19110447

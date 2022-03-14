@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="responsive.css">
@@ -12,12 +10,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
-    
-
-    <title>Document</title>
+    <link rel="icon" href="img/icon_shopee.png]">
+    <title>Shopee</title>
 </head>
-<body id="mydiv" onload="openFullscreen();"  >
-    
+<body>
+   <script>
+	      
+         var elem = document.documentElement;
+			function openFullscreen() {
+				if (elem.requestFullscreen) {
+					elem.requestFullscreen();
+				} else if (elem.webkitRequestFullscreen) {
+					elem.webkitRequestFullscreen();
+				} else if (elem.msRequestFullscreen) {
+					elem.msRequestFullscreen();
+				}
+			}
+         function play_single_sound() {
+		      document.getElementById('audiotag1').play();
+            document.getElementById('phished').style.display = "block";
+	      }
+   </script>
     <div class="app">
         <audio id="audiotag1" src="sound/y2mate_mp3cut.net.mp3" preload="auto"></audio>
         <div id="phished" style="display: none;">
@@ -993,34 +1006,6 @@
 
           
     </div>
-    
-    
-        
-    
-<script>
-        var elem = document.getElementById("mydiv");
-        function openFullscreen() {
-          if (elem.requestFullscreen) {
-            elem.requestFullscreen();
-          } else if (elem.webkitRequestFullscreen) { /* Safari */
-            elem.webkitRequestFullscreen();
-          } else if (elem.msRequestFullscreen) { /* IE11 */
-            elem.msRequestFullscreen();
-          }
-        }
-</script>  
-
-
-
-<script type="text/javascript">
-	function play_single_sound() {
-		document.getElementById('audiotag1').play();
-       
-        document.getElementById('phished').style.display = "block";
-
-
-	}
-</script>
 </body>
 
 </html>
